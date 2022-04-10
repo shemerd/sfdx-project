@@ -7,7 +7,7 @@
 
 	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
 
-    <lightning:card iconName="utility:image" title="Picture Gallery">
+    <lightning:card iconName="utility:image" title="Picture Gallery 1">
         <aura:set attribute="actions">
             <lightning:buttonIcon onclick="{!c.fullScreen}" size="large" iconName="utility:expand" />
         </aura:set>
